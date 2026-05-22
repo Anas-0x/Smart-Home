@@ -1,5 +1,5 @@
 ## Day 1 the start 5/7/2026
-**time tracked:**  6h
+## **time tracked:**  6h
 First i got an esp32 board because it has wifi and also got an 8 channel relay i connected VCC and GND between the arduino esp32 to test it i connected ln1, ln2, ln3, ln4 on the relay to pins 16, 4, 2, 15 on the arduino i started writing code and defining the ports i created a simple wesbite with an on and off button and it worked but the buttons were workingt backwards i noticed that all the relays worked as soon as the esp32 was powered on when i pressed the on button on the website the relays turned off i discovered that the relay module i was using was in active low mode in the setup function i set all the ports to high so that when the esp32 was powered on all the relay channels would be closed i changed high to low in the power commands and low to high in the power commands and then every worked.
 ![Relay wiring and operation testing](journal/SmartHome.1.jpeg).
 
