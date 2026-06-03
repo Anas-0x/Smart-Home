@@ -13,13 +13,13 @@ A smart home is a device that allows you to control the home and anything connec
 this wepsite controls the home and is connected to the esp32 it operates only on the local network using the esp ip address.
 
 ## Materials and equipment used
-.1 esp32 board
-.2 relay 8 channel
-.3 Wires compatible with ESP and relay
-.4 5V power supply
+1. esp32 board
+2. relay 8 channel
+3. Wires compatible with ESP and relay
+5. 5V power supply
 
 ## Setup and operation
-1.Download the Arduino IDE software for writing and modifying code.
-2.All connections are included in the code.
-3.The network name and password must be changed from the code.
-4.After loading the code onto the ESP panel, open the serial monitor to obtain the IP address.
+1. Download the Arduino IDE software for writing and modifying code.
+2. All connections are included in the code.
+3. The network name and password must be changed from the code.
+4. After loading the code onto the ESP panel, open the serial monitor to obtain the IP address.
