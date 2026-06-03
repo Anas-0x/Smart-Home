@@ -12,11 +12,32 @@ A smart home is a device that allows you to control the home and anything connec
 ![web interface](journal/website_screenshot.png)
 this wepsite controls the home and is connected to the esp32 it operates only on the local network using the esp ip address.
 
-## Materials and equipment used
-1. esp32 board
-2. relay 8 channel
-3. Wires compatible with ESP and relay
-5. 5V power supply
+## Required components
+1. esp32 board x1
+2. relay 8 channel 5V x1
+3. female to female jumper wires x8
+5. USB-A to USB-C cable for programming and power supply x1
+
+## Component purchase links
+1. [ESP32](https://share.temu.com/SbDvANfAYtB)
+2. [Relay 8 channel](https://share.temu.com/sZogn0PjtcB)
+3. [famale to famale jumper wires](https://share.temu.com/9QQZqEVg8nB)
+4. [USB-A to cable USB-C](https://share.temu.com/YKPuzVAg0hB)
+
+## Wiring connections
+|      |         |
+|------|---------|
+| D19  | Relay 1 |
+| D18  | Relay 2 |
+| D5   | Relay 3 |
+| D17  | Relay 4 |
+| D16  | Relay 5 |
+| D4   | Relay 6 |
+| D2   | Relay 7 |
+| D15  | Relay 8 |
+| GND  | GND     |
+| VIN  | VCC     |
+
 
 ## Setup and operation
 1. Download the Arduino IDE software for writing and modifying code.
