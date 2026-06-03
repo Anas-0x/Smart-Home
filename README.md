@@ -38,6 +38,8 @@ this wepsite controls the home and is connected to the esp32 it operates only on
 | GND  | GND     |
 | VIN  | VCC     |
 
+![Connections](journal/SmartHome.1.jpeg)
+
 
 ## Setup and operation
 1. Download the Arduino IDE software for writing and modifying code.
